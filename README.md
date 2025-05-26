@@ -290,4 +290,4 @@ Now your Azure Function app is connected to Azure SQL Database using an output b
 
 ## 📹 Video Demonstration
 
-[Watch the video](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+[Watch the video](https://drive.google.com/file/d/1NiMWLDf71s8qrfjhDOWumpiSj6lp6LME/view?usp=sharing)
