@@ -1,10 +1,14 @@
 <!-- 
 
+Instruction:
+https://github.com/ramymohamed10/25S_CST8917_Lab_1
+
 Repo:
 https://github.com/degu0055/FunctionAppswithOutputBindings 
 
 Submit here:
 https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=791554&db=743547
+
 
 -->
 
