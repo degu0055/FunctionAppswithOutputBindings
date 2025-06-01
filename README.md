@@ -16,7 +16,7 @@ This guide walks you through connecting an Azure Function to Azure Storage Queue
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 Before starting, make sure you have:
 
@@ -32,7 +32,7 @@ Before starting, make sure you have:
 
 ---
 
-## ⚙️ Setup Environment
+## Setup Environment
 
 ### 1. Create or Open an Azure Function Project
 
@@ -50,7 +50,7 @@ To sync Azure Storage locally:
 
 ---
 
-## 📦 Register Binding Extensions
+## Register Binding Extensions
 
 Ensure your `host.json` includes:
 
@@ -66,7 +66,7 @@ Ensure your `host.json` includes:
 
 ---
 
-## ➕ Add Output Binding to Azure Queue Storage
+## Add Output Binding to Azure Queue Storage
 
 ### 1. Modify `function_app.py`
 
@@ -103,7 +103,7 @@ def HttpExample(req: func.HttpRequest, msg: func.Out[func.QueueMessage]) -> func
 
 ---
 
-## 🧪 Run Locally and Test
+## Run Locally and Test
 
 1. Press `F5` in VS Code to start the local function app.  
 2. Right-click `HttpExample` in the **Azure Functions** panel → `Execute Function Now...`  
@@ -117,7 +117,7 @@ def HttpExample(req: func.HttpRequest, msg: func.Out[func.QueueMessage]) -> func
 
 ---
 
-## 🔍 Verify Output in Azure Storage Explorer
+## Verify Output in Azure Storage Explorer
 
 1. Open **Azure Storage Explorer**  
 2. Navigate to your connected storage account  
@@ -126,7 +126,7 @@ def HttpExample(req: func.HttpRequest, msg: func.Out[func.QueueMessage]) -> func
 
 ---
 
-## 🚀 Deploy to Azure
+## Deploy to Azure
 
 1. Open Command Palette (`F1`)  
 2. Select `Azure Functions: Deploy to Function App`  
